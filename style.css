@@ -1,13 +1,37 @@
-.titleBar {
-text-align: center;
-height: 20%;
-background-color: blue;
+body {
+  height: 100vh;
+}
+
+.headerStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .player1 {
-text-align: center;
+  display: flex;
+  font-size: 300px;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  color: white;
 }
 
 .player2 {
-text-align: center;
+  display: flex;
+  font-size: 300px;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+}
+
+.footerStyle {
+  padding: 10px;
+  justify-content: center;
 }
